@@ -46,6 +46,10 @@ a.active {
     color: #{{ site.data.template.color.secondary }};
 }
 
+.left-align {
+    text-align: left;
+} 
+
 h1,
 h2,
 h3,
