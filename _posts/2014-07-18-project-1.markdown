@@ -1,6 +1,5 @@
 ---
-title: Stock Predictor
-subtitle: Predicts the stock price of S&P 500 companies
+title: Stock Price Predictor
 layout: default
 modal-id: 1
 date: 2014-07-18
