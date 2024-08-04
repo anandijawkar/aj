@@ -15,8 +15,8 @@ body {
 }
 
 .site-title {
-    font-family: 'Courier New', Courier, monospace; /* Example font */
-    font-size: 24px;
+    font-family: Arial, sans-serif;  /* Example font */
+    font-size: 26px;
     font-weight: bold;
     color: #FFD700; /* Yellow color */
 }
