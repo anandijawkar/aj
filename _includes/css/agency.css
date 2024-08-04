@@ -14,6 +14,13 @@ body {
     color: #{{ site.data.template.color.muted }};
 }
 
+.site-title {
+    font-family: 'Courier New', Courier, monospace; /* Example font */
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFD700; /* Yellow color */
+}
+
 .text-primary {
     color: #{{ site.data.template.color.primary }};
 }
