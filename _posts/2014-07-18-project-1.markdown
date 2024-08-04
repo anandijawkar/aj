@@ -7,7 +7,7 @@ img: dreams.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt
 project-date: June 2024
-category: Web Development
+category: AI & ML
 description: Predicts the stock price of S&P 500 companies using the stock market index by using pandas, yfinance and sci-kit learn
-
+github: https://github.com/anandijawkar/stock-predictor
 ---
