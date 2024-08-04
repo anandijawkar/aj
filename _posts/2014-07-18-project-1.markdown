@@ -1,13 +1,10 @@
 ---
 title: Stock Price Predictor
-layout: default
+layout: 
 modal-id: 1
 date: 2014-07-18
 img: dreams.png
 thumbnail: dreams-thumbnail.png
-alt: image-alt
-project-date: June 2024
-category: AI & ML
 description: Predicts the stock price of S&P 500 companies using the stock market index by using pandas, yfinance and sci-kit learn
 github: https://github.com/anandijawkar/stock-predictor
 ---
