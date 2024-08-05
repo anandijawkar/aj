@@ -42,15 +42,13 @@
 <!-- Header -->
 <header>
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <div class="intro-text text-left">
-                    <h3 class="intro-heading">Hello 👋</h3>
-                    <div class="intro-heading">I'm Anandi Jawkar</div>
-                    <a href="#services" class="page-scroll btn btn-xl">About Me!</a>
-                </div>
+        <div class="intro-row">
+            <div class="intro-text">
+                <h3 class="intro-heading">Hello 👋</h3>
+                <div class="intro-heading">I'm Anandi Jawkar</div>
+                <a href="#services" class="page-scroll btn btn-xl">About Me!</a>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 text-right">
+            <div class="intro-image">
                 <img src="_includes/profile-pic.JPG" alt="Anandi Jawkar" class="img-responsive img-border">
             </div>
         </div>
@@ -61,16 +59,24 @@
     body {
         padding-top: 70px; /* Adjust this value to match the height of your navbar */
     }
-    .intro-text {
+    .intro-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         padding: 20px;
     }
-    .img-border {
+    .intro-text {
+        flex: 1;
+    }
+    .intro-image img {
+        max-width: 100%;
+        height: auto;
         border: 2px solid #ddd;
         border-radius: 5px;
-        padding: 5px;
     }
     @media (max-width: 768px) {
-        .intro-text, .text-right {
+        .intro-row {
+            flex-direction: column;
             text-align: center;
         }
         .intro-text {
