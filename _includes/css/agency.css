@@ -1003,6 +1003,205 @@ ul.social-buttons li a:active {
     outline: 0;
     box-shadow: none;
 }
+/*
+* ----------------------------------------------------------------------------------------
+* 07.WORK CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+.work-inner .mix {
+    display: none;
+}
+
+ul.work {
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+ul.work li {
+    display: inline-block;
+    padding-bottom: 4px;
+    margin: 0 8px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    color: #938d8d;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    border-bottom: 2px solid transparent;
+}
+
+ul.work li:hover {
+    color: #000;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+ul.work li.active {
+    color: #000;
+}
+
+.work .item {
+    padding: 0;
+    margin: 0;
+}
+
+.work .col-md-4 {
+    padding: 0;
+    margin: 0;
+}
+
+.work figure.effect-ruby img {
+    height: auto;
+    width: 100%;
+}
+
+.work .grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    min-width: 320px;
+    max-width: 480px;
+    max-height: 360px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.work .grid figure:hover {
+    background: #000;
+}
+
+.work figure.effect-ruby h2 {
+    margin-top: 35%;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    -webkit-transition: .3s;
+    transition: .3s;
+    display: inline-block;
+    color: #fff;
+}
+
+.work figure.effect-ruby p {
+    font-size: 14px;
+    text-transform: capitalize;
+    border: none;
+    padding: 0;
+    margin: 5px 0px;
+}
+
+.work figure.effect-ruby p strong {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-right: 5px;
+}
+
+.work .item:hover figure.effect-ruby h2 {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.work-popup-style {
+    position: relative;
+    /* background: #F9F9F9; */
+    background: white;
+    padding: 20px;
+    width: auto;
+    max-width: 900px;
+    max-height: fit-content;
+    margin: 20px auto;
+    display: flex;
+}
+
+.work-popup-style .work-popup-style-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: none;
+}
+
+#work-popup-style-button-container {
+    background-color: var(--accent-color);
+    cursor: pointer;
+    width: fit-content;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+}
+
+.work-popup-style h2 {
+    margin-top: 10px !important;
+    color: var(--accent-color);
+}
+
+.work-popup-style .work-svg {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    margin-left: -5px;
+    margin-right: 5px;
+    background-color: transparent;
+}
+
+.work-popup-style .work-svg path {
+    fill: white;
+}
+
+/* Animations for work-popup */
+/* overlay at start */
+.mfp-fade.mfp-bg {
+    opacity: 0;
+
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+}
+
+/* overlay animate in */
+.mfp-fade.mfp-bg.mfp-ready {
+    opacity: 0.8;
+}
+
+/* overlay animate out */
+.mfp-fade.mfp-bg.mfp-removing {
+    opacity: 0;
+}
+
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content {
+    opacity: 0;
+
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+}
+
+/* content animate it */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+    opacity: 1;
+}
+
+/* content animate out */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+    opacity: 0;
+}
 
 .contact-form input[type='submit'] {
     display: inline-block;
