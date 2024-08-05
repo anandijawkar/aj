@@ -14,13 +14,6 @@ body {
     color: #{{ site.data.template.color.muted }};
 }
 
-.site-title {
-    font-family: Arial, sans-serif;  /* Example font */
-    font-size: 26px;
-    font-weight: bold;
-    color: #FFD700; /* Yellow color */
-}
-
 .text-primary {
     color: #{{ site.data.template.color.primary }};
 }
