@@ -82,6 +82,57 @@ h6 {
     background-color: #{{ site.data.template.color.primary }};
 }
 
+.work-experience-area {
+    background: #f9f9f9;
+}
+
+.work-experience-area .section-title h2 {
+    color: var(--accent-color);
+}
+
+.single-experience {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.single-experience h2 {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 20px 0px;
+    color: #232323;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.single-experience h3 {
+    font-size: 12px;
+    margin: 20px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.single-experience p {
+    margin-bottom: 0;
+}
+
+/* #experience .single-experience span{
+    float: right;
+    margin-top: -30px;
+    font-size: 12px;
+    font-weight: 300;
+    border-bottom: 1px solid #000;
+} */
+
+.single-experience img{
+    float: right;
+    margin-top: -43px;
+    font-size: 12px;
+    font-weight: 300;
+    width: auto;
+    height: 35px;
+    text-align: center;
+}
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
