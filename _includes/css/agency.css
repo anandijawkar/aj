@@ -1253,6 +1253,36 @@ img::-moz-selection {
     background: 0 0;
 }
 
+.social-link-area ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-link-area ul li {
+    margin: 0 10px;
+}
+
+.social-link-area ul li a {
+    display: inline-block;
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Adjust the size as needed */
+    border-radius: 50%;
+    background-color: #222; /* You can change this to match your circle colors */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.social-link-area ul li a img {
+    width: 24px; /* Adjust the size of the icon */
+    height: 24px; /* Adjust the size of the icon */
+    filter: invert(1); /* If you want the icons to be white */
+}
+
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
